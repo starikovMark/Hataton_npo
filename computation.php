@@ -17,16 +17,28 @@ include_once('./templates/header.php');
                 <h3 class="form-title computation-form-title">Спрогнозируйте взнос</h3>
                 <div class="input-group-wrapper computation-input-group-wrapper">
                     <div class="input-group">
+                        <input type="number" class="input" placeholder=" " />
+                        <label for="user_name" class="input-group-label">Ваш возраст</label>
+                    </div>
+                    <div class="input-group">
                         <input type="text" class="input" placeholder=" " />
                         <label for="user_name" class="input-group-label">Ваш доход</label>
                     </div>
                     <div class="input-group">
                         <input type="text" class="input phone-mask" placeholder=" " />
-                        <label for="user_phone" class="input-group-label">Желаемая сумма взноса</label>
+                        <label for="user_phone" class="input-group-label">Первоначальный взнос, ₽</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="input phone-mask" placeholder=" " />
+                        <label for="user_phone" class="input-group-label">Ежемесячный взнос, ₽</label>
                     </div>
                     <div class="input-group">
                         <input type="number" class="input phone-mask" placeholder=" " />
-                        <label for="user_phone" class="input-group-label">Периодичность взноса</label>
+                        <label for="user_phone" class="input-group-label">Доходность, %</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="number" class="input phone-mask" placeholder=" " />
+                        <label for="user_phone" class="input-group-label">Срок выплаты пенсии, лет</label>
                     </div>
                 </div>
                 <!-- /.input-group-wrapper -->
